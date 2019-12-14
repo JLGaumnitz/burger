@@ -24,7 +24,7 @@
 		<div class="col-md-6 text-center" class="task">
 			  {{#each burger_data}}
 			  	{{#if this.devoured}}
-			  		<input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}" readonly>
+			  		<input class="form-control" type="text" placeholder="You devoured: {{this.burger_name}}" readonly>
 				{{/if}}
 			  {{/each}}
 		</div>
@@ -34,11 +34,11 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 text-center enter_section">
+			<p id="button-instructions">Enter a burger you wish to eat and press  "Submit."</p>
 			<form action="/burgers/create" method="POST">
 				<input type="text" class="form-control" name="burger_name" value="" id="enter_text">
 				<button type="submit" class="btn btn-danger" id="text-enter-button">Submit</button>
 			</form>
-			<p id="button-instructions">Enter a burger you wish to eat and press  "Submit."</p>
 		</div>
 	</div>
 </div>
