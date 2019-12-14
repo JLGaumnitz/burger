@@ -1,24 +1,89 @@
 body {
-    width: 99%;
-    height: 900px;
-    background-color: #fc6;
-  }
-  
-  #top-bar {
-    margin-top: 28px;
-  }
-  
-  .spacing-reset {
+  background-image: url("/assets/images/burgerIngredientsBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 75% 75%;
+}
+
+#top-bar {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: rgb(255, 0, 98);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 5em;
+}
+
+#button-instructions {
+  color: white;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: rgb(79, 182, 10);
+  border-color: rgb(79, 182, 10);
+}
+
+.spacing-reset {
     padding: 0;
     margin: 0;
     border: 0;
-  }
+}
   
-  .list-reset {
+.list-reset {
     padding: 0;
     margin: 0;
     list-style-type: none;
     border: 0;
+}
+
+.enter_section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+#enter_text {
+    width: 400px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    font-size: 20px;
+  }
+  
+.task {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    padding: 2px;
+  }
+
+.form-control {
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+.button-size {
+    padding-bottom: 20px;
+  }
+  
+#text-enter-button {
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  
+ #button-instructions {
+    color: white;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  .burgers-submitted {
+    color: white;
+    font-size: 2em;
   }
   
   @media (min-width: 1200px) {
@@ -31,39 +96,5 @@ body {
     .container {
       width: 990px;
     }
-  }
-  
-  .enter_section {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  #enter_text {
-    width: 400px;
-    height: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto;
-    font-size: 38px;
-  }
-  
-  .task {
-    border-color: black;
-    border-style: solid;
-    border-width: 3px;
-  }
-  
-  .button-size {
-    padding-bottom: 20px;
-  }
-  
-  #text-enter-button {
-    margin-top: 10px;
-    margin-bottom: 18px;
-  }
-  
-  h1 {
-    color: #f30;
   }
   
