@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   background-image: url("/assets/images/burgerIngredientsBackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
