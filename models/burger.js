@@ -20,7 +20,12 @@ var burger = {
     orm.update("burgers", {
       devoured: true
     }, condition, cb);
+  },
+  
+  delete: function (id, cb) {
+    orm.delete("burgers", id, cb);
   }
+
 };
 
 module.exports = burger;
